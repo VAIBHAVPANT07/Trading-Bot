@@ -1,0 +1,8 @@
+2025-06-14 10:25:14 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binancefuture.com
+2025-06-14 10:25:14 | DEBUG    | bot.client | → POST /fapi/v1/ping | params=[] | body_keys=[]
+2025-06-14 10:25:14 | INFO     | bot.client | Ping successful — Binance Futures Testnet is reachable.
+2025-06-14 10:25:14 | INFO     | bot.orders | Placing SELL LIMIT order | symbol=BTCUSDT qty=0.001 price=68000.00 stopPrice=None
+2025-06-14 10:25:14 | DEBUG    | bot.client | → POST /fapi/v1/order | params=[] | body_keys=['symbol', 'side', 'type', 'quantity', 'timeInForce', 'price', 'timestamp', 'recvWindow', 'signature']
+2025-06-14 10:25:14 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/fapi/v1/order
+2025-06-14 10:25:14 | INFO     | bot.client | Order placed ✓ | orderId=3947293021 status=NEW executedQty=0 avgPrice=0
+2025-06-14 10:25:14 | INFO     | bot.cli    | Order result: success=True orderId=3947293021

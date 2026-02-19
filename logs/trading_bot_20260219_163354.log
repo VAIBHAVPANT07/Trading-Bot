@@ -1,0 +1,15 @@
+2026-02-19 16:33:54 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binance.vision
+2026-02-19 16:33:54 | DEBUG    | bot.client | → GET /api/v3/account | params=['timestamp', 'recvWindow', 'signature'] | body_keys=[]
+2026-02-19 16:33:55 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/api/v3/account
+2026-02-19 16:33:55 | DEBUG    | bot.client | → GET /api/v3/openOrders | params=['timestamp', 'recvWindow', 'signature'] | body_keys=[]
+2026-02-19 16:33:55 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/api/v3/openOrders
+2026-02-19 16:36:03 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binance.vision
+2026-02-19 16:36:03 | DEBUG    | bot.client | → GET /api/v3/account | params=['timestamp', 'recvWindow', 'signature'] | body_keys=[]
+2026-02-19 16:36:04 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/api/v3/account
+2026-02-19 16:36:13 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binance.vision
+2026-02-19 16:36:14 | DEBUG    | bot.client | → GET /api/v3/account | params=['timestamp', 'recvWindow', 'signature'] | body_keys=[]
+2026-02-19 16:36:14 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/api/v3/account
+2026-02-19 16:36:15 | DEBUG    | bot.client | → GET /api/v3/account | params=['timestamp', 'recvWindow', 'signature'] | body_keys=[]
+2026-02-19 16:36:15 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/api/v3/account
+2026-02-19 16:36:15 | DEBUG    | bot.client | → GET /api/v3/openOrders | params=['symbol', 'timestamp', 'recvWindow', 'signature'] | body_keys=[]
+2026-02-19 16:36:15 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/api/v3/openOrders

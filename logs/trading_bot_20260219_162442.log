@@ -1,0 +1,5 @@
+2026-02-19 16:24:42 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binance.vision
+2026-02-19 16:24:42 | INFO     | bot.client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-02-19 16:24:42 | DEBUG    | bot.client | → POST /api/v3/order | params=[] | body_keys=['symbol', 'side', 'type', 'quantity', 'timestamp', 'recvWindow', 'signature']
+2026-02-19 16:24:42 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/api/v3/order
+2026-02-19 16:24:42 | INFO     | bot.client | Order placed ✓ | orderId=4028926 status=FILLED executedQty=0.00100000

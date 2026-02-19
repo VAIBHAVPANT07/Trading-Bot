@@ -1,0 +1,11 @@
+2026-02-19 16:18:54 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binance.vision
+2026-02-19 16:18:54 | ERROR    | bot.orders | Unexpected error during order placement
+Traceback (most recent call last):
+  File "/Users/vaibhavpant/Desktop/trading_bot/bot/orders.py", line 91, in place_order
+    response = client.place_order(
+        symbol=params["symbol"],
+    ...<5 lines>...
+        reduce_only=reduce_only,
+    )
+TypeError: BinanceClient.place_order() got an unexpected keyword argument 'stop_price'
+2026-02-19 16:18:54 | ERROR    | __main__ | Order failed: Unexpected error: BinanceClient.place_order() got an unexpected keyword argument 'stop_price'

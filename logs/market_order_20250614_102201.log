@@ -1,0 +1,8 @@
+2025-06-14 10:22:01 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binancefuture.com
+2025-06-14 10:22:01 | DEBUG    | bot.client | → POST /fapi/v1/ping | params=[] | body_keys=[]
+2025-06-14 10:22:01 | INFO     | bot.client | Ping successful — Binance Futures Testnet is reachable.
+2025-06-14 10:22:01 | INFO     | bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2025-06-14 10:22:01 | DEBUG    | bot.client | → POST /fapi/v1/order | params=[] | body_keys=['symbol', 'side', 'type', 'quantity', 'timestamp', 'recvWindow', 'signature']
+2025-06-14 10:22:02 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/fapi/v1/order
+2025-06-14 10:22:02 | INFO     | bot.client | Order placed ✓ | orderId=3947291847 status=FILLED executedQty=0.001 avgPrice=67243.50
+2025-06-14 10:22:02 | INFO     | bot.cli    | Order result: success=True orderId=3947291847

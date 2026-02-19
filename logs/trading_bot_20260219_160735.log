@@ -1,0 +1,4 @@
+2026-02-19 16:07:35 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binancefuture.com
+2026-02-19 16:07:35 | DEBUG    | bot.client | → GET /fapi/v1/ping | params=[] | body_keys=[]
+2026-02-19 16:07:36 | DEBUG    | bot.client | ← HTTP 200 | endpoint=/fapi/v1/ping
+2026-02-19 16:07:36 | INFO     | bot.client | Ping successful — Binance Futures Testnet is reachable.

@@ -1,0 +1,7 @@
+2026-02-19 16:08:50 | DEBUG    | bot.client | BinanceClient initialized | base_url=https://testnet.binancefuture.com
+2026-02-19 16:08:50 | INFO     | bot.client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-02-19 16:08:50 | DEBUG    | bot.client | → POST /fapi/v1/order | params=[] | body_keys=['symbol', 'side', 'type', 'quantity', 'timestamp', 'recvWindow', 'signature']
+2026-02-19 16:08:51 | DEBUG    | bot.client | ← HTTP 401 | endpoint=/fapi/v1/order
+2026-02-19 16:08:51 | ERROR    | bot.client | Binance API error: [-2014] API-key format invalid.
+2026-02-19 16:08:51 | ERROR    | bot.orders | Binance API error [-2014]: API-key format invalid.
+2026-02-19 16:08:51 | ERROR    | __main__ | Order failed: Binance API Error [-2014]: API-key format invalid.

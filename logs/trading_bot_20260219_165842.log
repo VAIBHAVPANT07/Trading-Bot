@@ -1,0 +1,4 @@
+2026-02-19 16:58:42 | DEBUG    | client | BinanceClient initialized | base_url=https://testnet.binance.vision
+2026-02-19 16:58:43 | DEBUG    | client | → GET /api/v3/account | params=['timestamp', 'recvWindow', 'signature'] | body_keys=[]
+2026-02-19 16:58:43 | DEBUG    | client | ← HTTP 401 | endpoint=/api/v3/account
+2026-02-19 16:58:43 | ERROR    | client | Binance API error: [-2015] Invalid API-key, IP, or permissions for action.
